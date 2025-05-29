@@ -1,0 +1,63 @@
+body {
+  font-family: Cambria;
+  background-image: url("https://wallpaperaccess.com/full/6823685.jpg");
+  background-size: 100%
+}
+
+.main-background {
+  background-color: rgb(253, 223, 228);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15vh;
+  width: 60%;
+  max-width: 300px;
+  height: 307px;
+  border: 4px solid rgb(255, 78, 78);
+}
+
+input {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.list-item {
+  font-weight: bold;
+  color: rgb(151, 0, 0);
+}
+
+.todo-list {
+  list-style-type: none;
+  margin-top: 0px;
+}
+
+h1 {
+  margin: 0px;
+  margin-top: 10px;
+  padding: 0px;
+  text-align: center;
+  display: block;
+  color: rgb(151, 0, 0);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(253, 132, 132);
+}
+a:link {
+  text-decoration: none;
+  color: rgb(253, 132, 132);
+}
+a:visited {
+  color: rgb(255, 210, 45);
+}
+a:hover {
+  color: rgb(255, 14, 14);
+  font-weight: bold;
+}
+a:active{
+  color: rgb(255, 0, 102);
+}
+a:focus {
+  border: 1px solid rgb(255, 14, 14);
+  text-decoration: underline;
+}
